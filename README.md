@@ -16,19 +16,15 @@ Proyek *Machine Learning* terintegrasi (*end-to-end*) untuk estimasi harga penaw
 
 ---
 
-## 📁 Struktur Direktori
+## 📁 Struktur Berkas Utama
 ```text
 Bengkod/
-├── EarlyBird_Bengkod.ipynb       # Notebook utama (alur terstruktur 9 bagian)
 ├── app.py                         # Kode aplikasi web interaktif Streamlit
-├── model_harga_rumah.joblib       # Model machine learning terlatih (kompatibel & terkompresi)
+├── EarlyBird_Bengkod_Final.ipynb  # Notebook analisis dan pemodelan Machine Learning
+├── model_harga_rumah.joblib       # Model Machine Learning terlatih siap pakai
 ├── Raw-Final-Rumah.csv            # Dataset mentah listing properti Kota Depok
-├── requirements.txt               # Daftar pustaka Python yang dibutuhkan
-├── PENJELASAN_NOTEBOOK.md         # Dokumentasi & penjelasan mendalam per sel dan per baris kode
+├── requirements.txt               # Daftar dependensi Python untuk deployment
 ├── README.md                      # Dokumentasi utama proyek
-├── references/                    # Berkas referensi & arsip
-│   ├── Bengkod_DS_All.ipynb       # Silabus praktikum Bengkel Koding (Pertemuan 1-5)
-│   └── EarlyBird_Bengkod_backup.ipynb # Arsip notebook versi awal sebelum perbaikan
 └── .gitignore                     # Konfigurasi file yang diabaikan oleh Git
 ```
 
