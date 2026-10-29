@@ -1,7 +1,11 @@
 import streamlit as st
 import pandas as pd
-import joblib
 from pathlib import Path
+
+try:
+    import joblib
+except ModuleNotFoundError:
+    from sklearn.utils import _joblib as joblib
 
 # --- Konfigurasi Halaman ---
 st.set_page_config(
